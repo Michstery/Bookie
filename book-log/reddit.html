@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/17bbd62899.js" async></script>
+  </head>
+
+  <body class="bg-white">
+    <header class="main-header py-4">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">Bookstorm</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-md-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <a href="#" class="btn btn-transparent px-4">Login</a>
+              <a href="" class="btn btn-white btn-rounded px-4 shadow-lg"
+                >Sign Up</a
+              >
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container" style="margin-top: 2em">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="d-flex flex-column" style="margin-top: 3em;">
+                <div class="p-2 down">
+                  <a href="#"><i class="fas fa-fire"></i> Hot</a>
+                </div>
+                <div class="p-2 down">
+                  <a href="#"><i class="fas fa-newspaper"></i> News</a>
+                </div>
+                <div class="p-2 down">
+                  <a href="#"><i class="fas fa-swimming-pool"></i> Rising</a>
+                </div>
+                <div class="p-2 down">
+                  <a href="#"><i class="fas fa-trophy"></i> Top</a>
+                </div>
+                <div class="p-2 down">
+                  <a href="#"><i class="far fa-newspaper"></i> News</a>
+                </div>
+                <div class="p-2 down">
+                  <a href="#"> <i class="far fa-heart"></i> Favourite</a>
+                </div>
+                <br />
+                <br />
+                <div class="title"><h6>Top contributors</h6></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="d-flex">
+                <div class="mr-auto" style="padding-bottom:0.3em;">
+                  <h3><i class="fas fa-arrow-left"></i> Popular</h3>
+                </div>
+                <div class="mr-auto">
+                  <h6 style="font-size: 15px;">Popular in</h6>
+                </div>
+                <div>
+                  <h4>US</h4>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card promoting-card">
+                  <div
+                    class="card-body d-flex flex-row"
+                    style="padding:0.5em!important;"
+                  >
+                    <img
+                      src="https://mdbootstrap.com/img/Photos/Avatars/avatar-8.jpg"
+                      class="rounded-circle mr-3"
+                      height="35px"
+                      width="35px"
+                      alt="avatar"
+                    />
+                    <!-- Username/title -->
+                    <div class="d-flex" style="flex:1">
+                      <div>
+                        <h6 style="font-size: 13px; padding-top: 5px">
+                          Jon doe
+                        </h6>
+                      </div>
+                      <div style="margin-left:10px; padding-top:6px ">
+                        <h6 style="font-size: 13px;">
+                          <i
+                            class="far fa-clock pr-2"
+                            style="font-size: 12px"
+                          ></i>
+                          1 hour ago
+                        </h6>
+                      </div>
+                      <!-- <div class="ml-auto heart" style="padding-top: 7px;">
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <div style="padding-top:7px; padding-left: 9px">
+                        <i class="fas fa-ellipsis-v"></i>
+                      </div> -->
+                      <div class="ml-auto">
+                        <h6 style="font-size: 12px">27 answers</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mr-auto">
+                      <h5
+                        style="font-size: 15px;padding-left: 7px;padding: 0.75em;line-height: 2;"
+                      >
+                        <b style="line-height: 2">
+                          What page 3 could look like if women made it
+                        </b>
+                        <p style="font-size: 12px">
+                          Herbs are fun and easy to grow. When harvested they
+                          make even the simplest. This page was created by
+                          Yokomon, Only God can save me.. All this for
+                          Hackhathon?? God when??
+                        </p>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card promoting-card">
+                  <div
+                    class="card-body d-flex flex-row"
+                    style="padding:0.5em!important;"
+                  >
+                    <img
+                      src="https://mdbootstrap.com/img/Photos/Avatars/avatar-8.jpg"
+                      class="rounded-circle mr-3"
+                      height="35px"
+                      width="35px"
+                      alt="avatar"
+                    />
+                    <!-- Username/title -->
+                    <div class="d-flex" style="flex:1">
+                      <div>
+                        <h6 style="font-size: 13px; padding-top: 5px">
+                          Jon doe
+                        </h6>
+                      </div>
+                      <div style="margin-left:10px; padding-top:6px ">
+                        <h6 style="font-size: 13px;">
+                          <i
+                            class="far fa-clock pr-2"
+                            style="font-size: 12px"
+                          ></i>
+                          1 hour ago
+                        </h6>
+                      </div>
+                      <!-- <div class="ml-auto heart" style="padding-top: 7px;">
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <div style="padding-top:7px; padding-left: 9px">
+                        <i class="fas fa-ellipsis-v"></i>
+                      </div> -->
+                      <div class="ml-auto">
+                        <h6 style="font-size: 12px">27 answers</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mr-auto">
+                      <h5
+                        style="font-size: 15px;padding-left: 7px;padding: 0.75em;line-height: 2;"
+                      >
+                        <b style="line-height: 2">
+                          What page 3 could look like if women made it
+                        </b>
+                        <p style="font-size: 12px">
+                          Herbs are fun and easy to grow. When harvested they
+                          make even the simplest. This page was created by
+                          Yokomon, Only God can save me.. All this for
+                          Hackhathon?? God when??
+                        </p>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card promoting-card">
+                  <div
+                    class="card-body d-flex flex-row"
+                    style="padding:0.5em!important;"
+                  >
+                    <img
+                      src="https://mdbootstrap.com/img/Photos/Avatars/avatar-8.jpg"
+                      class="rounded-circle mr-3"
+                      height="35px"
+                      width="35px"
+                      alt="avatar"
+                    />
+                    <!-- Username/title -->
+                    <div class="d-flex" style="flex:1">
+                      <div>
+                        <h6 style="font-size: 13px; padding-top: 5px">
+                          Jon doe
+                        </h6>
+                      </div>
+                      <div style="margin-left:10px; padding-top:6px ">
+                        <h6 style="font-size: 13px;">
+                          <i
+                            class="far fa-clock pr-2"
+                            style="font-size: 12px"
+                          ></i>
+                          1 hour ago
+                        </h6>
+                      </div>
+                      <!-- <div class="ml-auto heart" style="padding-top: 7px;">
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <div style="padding-top:7px; padding-left: 9px">
+                        <i class="fas fa-ellipsis-v"></i>
+                      </div> -->
+                      <div class="ml-auto">
+                        <h6 style="font-size: 12px">27 answers</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mr-auto">
+                      <h5
+                        style="font-size: 15px;padding-left: 7px;padding: 0.75em;line-height: 2;"
+                      >
+                        <b style="line-height: 2">
+                          What page 3 could look like if women made it
+                        </b>
+                        <p style="font-size: 12px">
+                          Herbs are fun and easy to grow. When harvested they
+                          make even the simplest. This page was created by
+                          Yokomon, Only God can save me.. All this for
+                          Hackhathon?? God when??
+                        </p>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card promoting-card">
+                  <div
+                    class="card-body d-flex flex-row"
+                    style="padding:0.5em!important;"
+                  >
+                    <img
+                      src="https://mdbootstrap.com/img/Photos/Avatars/avatar-8.jpg"
+                      class="rounded-circle mr-3"
+                      height="35px"
+                      width="35px"
+                      alt="avatar"
+                    />
+                    <!-- Username/title -->
+                    <div class="d-flex" style="flex:1">
+                      <div>
+                        <h6 style="font-size: 13px; padding-top: 5px">
+                          Jon doe
+                        </h6>
+                      </div>
+                      <div style="margin-left:10px; padding-top:6px ">
+                        <h6 style="font-size: 13px;">
+                          <i
+                            class="far fa-clock pr-2"
+                            style="font-size: 12px"
+                          ></i>
+                          1 hour ago
+                        </h6>
+                      </div>
+                      <!-- <div class="ml-auto heart" style="padding-top: 7px;">
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <div style="padding-top:7px; padding-left: 9px">
+                        <i class="fas fa-ellipsis-v"></i>
+                      </div> -->
+                      <div class="ml-auto">
+                        <h6 style="font-size: 12px">27 answers</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="mr-auto">
+                      <h5
+                        style="font-size: 15px;padding-left: 7px;padding: 0.75em;line-height: 2;"
+                      >
+                        <b style="line-height: 2">
+                          What page 3 could look like if women made it
+                        </b>
+                        <p style="font-size: 12px">
+                          Herbs are fun and easy to grow. When harvested they
+                          make even the simplest. This page was created by
+                          Yokomon, Only God can save me.. All this for
+                          Hackhathon?? God when??
+                        </p>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer style="background-color:#3e468f; margin-top:30px!important;">
+        <div class="container">
+          <div class="row links" style="padding: 60px;display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;" >
+              <div class="col-md-6 link-subgroup">
+              <h3>Bookstorm</h3>
+              <p>There are many variations of people,but there is only one yokomon. Welcome to my world. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quidem provident nulla eum officiis ipsa doloribus placeat inventore ipsum eaque tenetur ex, cum quae temporibus repudiandae deleniti dolor autem. Ducimus.</p>
+            </div>
+            <div class="col-md-2 link-subgroup">
+              <h3 style="font-size: 17px">Important</h3>
+              <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Faq</li>
+              </ul>
+            </div>
+            <!-- Anothe div on the footer -->
+            
+            <div class="col-md-2 link-subgroup">
+              <h3 style="font-size: 17px">Academic</h3>
+              <ul>
+                <li>Help center</li>
+                <li>Resources</li>
+                <li>Blog</li>
+                <li>Expertise</li>
+                <li>Support center</li>
+              </ul>
+            </div>
+            <div class="col-md-2 link-subgroup">
+              <h3 style="font-size: 17px">Gallery</h3>
+              <ul>
+                <li>Academic Building</li>
+                <li>Sports Ground</li>
+                <li>Swimming pool</li>
+                <li>Indore sports</li>
+              </ul>
+            </div>
+            
+            
+          </div>
+        </div>
+        <div class="copyright"> 
+          <h6 style="color: white; text-align:center; font-size:13px">&copy Copyright 2019. Hack Elites</h6>
+        </div>
+      </footer>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
